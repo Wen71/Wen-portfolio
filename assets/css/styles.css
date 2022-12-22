@@ -276,6 +276,11 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+address {
+  display: block;
+  font-style: italic;
+  text-align: center;
+}
 /* Contacts section ends */
 
 /* Social buttons */
