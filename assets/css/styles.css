@@ -150,26 +150,39 @@ nav ul li {
 /* More about ends */
 
 /* Skills section */
+* {box-sizing:border-box;}
+
+/* Container for skill bars */
+.container {
+  width: 40%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
 .skills {
-  max-width: 68.75rem;
-  margin: auto;
-  text-align: center;
-  margin-top: 2.5rem;
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  
+}
+.skills_title { 
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-.skill-header {
-  margin-bottom: 1rem;
-}
+.python {width: 90%; background-color: #4756df;}
+.java {width: 70%; background-color: #ff7235;}
+.c {width: 70%; background-color: #04AA6D;} /* Green */
+.sql {width: 70%; background-color: #2196F3;} /* Blue */
+.js {width: 60%; background-color: #f44336;} /* Red */
+.sas {width: 60%; background-color: #808080;} /* Dark Grey */
 
-.skills-wrapper img {
-  padding: 1.25rem;
-}
-
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
+.skills p{
+  line-height: var(--line-height);
+  padding: 0.4rem;
 }
 /* Skills section ends */
+
 
 /* Projects section */
 .projects {
